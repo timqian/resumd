@@ -1,0 +1,38 @@
+{
+  "name": "resume.md",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@toast-ui/react-editor": "^1.0.1",
+    "html2canvas": "^1.0.0-rc.1",
+    "js-file-download": "^0.4.8",
+    "jspdf": "^1.5.3",
+    "print-js": "^1.0.61",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-i18next": "^11.1.0",
+    "react-scripts": "3.2.0",
+    "showdown": "^1.9.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
