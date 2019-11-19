@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="300" src="https://i.v2ex.co/e0W134z7.png">
+  <a href="https://resumd.t9t.io"><img width="300" src="https://i.v2ex.co/e0W134z7.png"></a>
 </p>
 <br/>
 
@@ -8,7 +8,7 @@
   <a href="https://twitter.com/tim_qian"><img src="https://badgen.net/badge/icon/Twitter?icon=twitter&amp;label" /></a> 
   <a href="https://t.me/resumd"><img src="https://badgen.net/badge/icon/Telegram?icon=telegram&amp;label" /></a> 
   <a href="https://blog.t9t.io/"><img src="https://badgen.net/badge/icon/Blog?icon=chrome&amp;label" /></a>
-  <a href="https://www.patreon.com/timqian"><img src="https://badgen.net/badge/icon/Patrons/orange?icon=patreon&amp;label" /></a> 
+  <a href="https://www.patreon.com/timqian"><img src="https://badgen.net/badge/icon/Donate/orange?icon=patreon&amp;label" /></a> 
 </p>
 
 ## Features
@@ -17,7 +17,7 @@
 - [Web UI](https://resumd.t9t.io)
 - Customizable themes([](), [](), []())
 - Easy to share and edit
-- A pure frontend project, you data on your hand
+- A pure frontend project, your data on your hand
 
 ## Aim
 
