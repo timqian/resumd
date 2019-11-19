@@ -1,8 +1,10 @@
 <p align="center">
-  <img width="400" src="https://i.v2ex.co/e0W134z7.png">
+  <img width="300" src="https://i.v2ex.co/e0W134z7.png">
 </p>
 
-  [![](https://badgen.net/badge/icon/Website?icon=chrome&label)](https://resumd.t9t.io) [![](https://badgen.net/badge/icon/Twitter?icon=twitter&label)](https://twitter.com/timqian) [![](https://badgen.net/badge/icon/Telegram?icon=telegram&label)](https://t.me/resumd) [![](https://badgen.net/badge/icon/Patrons/orange?icon=patreon&label)](https://www.patreon.com/timqian) [![](https://badgen.net/badge/icon/Blog?icon=chrome&label)](https://blog.t9t.io/)
+<p align="center">
+  [![](https://badgen.net/badge/icon/Website?icon=chrome&label)](https://resumd.t9t.io) [![](https://badgen.net/badge/icon/Twitter?icon=twitter&label)](https://twitter.com/tim_qian) [![](https://badgen.net/badge/icon/Telegram?icon=telegram&label)](https://t.me/resumd) [![](https://badgen.net/badge/icon/Patrons/orange?icon=patreon&label)](https://www.patreon.com/timqian) [![](https://badgen.net/badge/icon/Blog?icon=chrome&label)](https://blog.t9t.io/)
+</p>
 
 Write resume with markdown
 
@@ -30,7 +32,7 @@ To be the best markdown to resume tool
 - [Create react app](https://github.com/facebook/create-react-app)
 - Logo: [Picas](https://picas.now.sh/)
 - Logo Font: Ceviche One
-- Change style sheets: https://www.w3.org/wiki/Dynamic_style_-_manipulating_CSS_with_JavaScript
+- [Change style sheets with JS](https://www.w3.org/wiki/Dynamic_style_-_manipulating_CSS_with_JavaScript) 
 
 ## Privious art
 
