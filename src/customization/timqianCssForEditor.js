@@ -1,16 +1,15 @@
-@charset "UTF-8";
-/**
-* @fileoverview style for content
-* @author NHN FE Development Lab <dl_javascript@nhn.com>
-*/
-
+export default `
 .CodeMirror {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .tui-editor-contents *:not(table) {
-    line-height: 160%;
+    line-height: 1.5;
     box-sizing: content-box;
+    font-size: calc(10px + 0.33vw);
+    font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #121314;
 }
 
 .tui-editor-contents i,
@@ -23,12 +22,13 @@
 }
 
 .tui-editor-contents strong {
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .tui-editor-contents p {
     margin: 10px 0;
     color: #555;
+    font-weight: 300;
 }
 
 .tui-editor-contents > h1:first-of-type,
@@ -97,7 +97,6 @@
 
 .tui-editor-contents pre,
 .tui-editor-contents code {
-    font-family: Consolas, Courier, "Apple SD 산돌고딕 Neo", -apple-system, "Lucida Grande", "Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", "Segoe UI", "돋움", dotum, sans-serif;
     border: 0;
     border-radius: 0;
 }
@@ -186,6 +185,7 @@
 .tui-editor-contents ul li,
 .tui-editor-contents ol li {
     position: relative;
+    font-weight: 300;
 }
 
 .tui-editor-contents ul p, ol p {
@@ -201,15 +201,6 @@
 .tui-editor-contents hr {
     border-top: 1px solid #eee;
     margin: 16px 0;
-}
-
-.tui-editor-contents a {
-    text-decoration: underline;
-    color: #5286bc;
-}
-
-.tui-editor-contents a:hover {
-    color: #007cff;
 }
 
 .tui-editor-contents {
@@ -257,3 +248,28 @@
     line-height: 160%;
     position: absolute;
 }
+.tui-editor-contents a {
+  text-decoration: none;
+  color: #3e8f28;
+  /* color: rgb(90, 123, 24); */
+  position: relative;
+}
+
+.tui-editor-contents a:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 85%;
+  left: -0.1em;
+  right: -0.1em;
+  bottom: 0;
+  transition: top 200ms cubic-bezier(0, .8, .13, 1);
+  -webkit-transition: top 200ms cubic-bezier(0, .8, .13, 1);
+  background-color: #61b24b62;
+  /* background-color: rgba(90, 123, 24, 0.5); */
+}
+
+.tui-editor-contents a:hover:after {
+  top: 0%;
+}
+`;

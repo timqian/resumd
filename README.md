@@ -10,7 +10,7 @@ Write resume with markdown
 - Easy to share and edit
 - A pure frontend project, you data on your hand
 
-## Goal
+## Aim
 
 To be the best markdown to resume tool
 
@@ -30,13 +30,14 @@ To be the best markdown to resume tool
 - [Create react app](https://github.com/facebook/create-react-app)
 - Logo: [Picas](https://picas.now.sh/)
 - Logo Font: Ceviche One
+- Change style sheets: https://www.w3.org/wiki/Dynamic_style_-_manipulating_CSS_with_JavaScript
 
 ## Privious art
 
-- Cv-maker: markdown based resume. [GitHub(Archived)](https://github.com/awalGarg/cv-maker/); [Hacker News disscussions](https://news.ycombinator.com/item?id=11026096);
+- Cv-maker: markdown based resume. [GitHub](https://github.com/awalGarg/cv-maker/); [Hacker News disscussions](https://news.ycombinator.com/item?id=11026096);
 - Online markdown resume editor: [DeerResume](https://github.com/geekcompany/DeerResume) [冷熊简历](http://cv.ftqq.com/#)
 - [Markdown-resuem-js](https://github.com/c0bra/markdown-resume-js): command line tool to turn markdown document into a resume in HTML and PDF.
-- [markdown-resume](https://github.com/there4/markdown-resume): another command line tool.
+- [Markdown-resume](https://github.com/there4/markdown-resume): another command line tool.
 
 
 ## TODO

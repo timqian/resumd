@@ -1,271 +1,277 @@
+export default `
 @font-face {
   font-family: octicons-link;
   src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
 }
 
-.tui-editor-contents .octicon {
+body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #24292e;
+  line-height: 1.5;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+  font-size: 13px;
+  word-wrap: break-word;
+  
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 10%;
+}
+
+.octicon {
   display: inline-block;
   fill: currentColor;
   vertical-align: text-bottom;
 }
 
-.tui-editor-contents .anchor {
+.anchor {
   float: left;
   line-height: 1;
   margin-left: -20px;
   padding-right: 4px;
 }
 
-.tui-editor-contents .anchor:focus {
+.anchor:focus {
   outline: none;
 }
 
-.tui-editor-contents h1 .octicon-link,
-.tui-editor-contents h2 .octicon-link,
-.tui-editor-contents h3 .octicon-link,
-.tui-editor-contents h4 .octicon-link,
-.tui-editor-contents h5 .octicon-link,
-.tui-editor-contents h6 .octicon-link {
+h1 .octicon-link,
+h2 .octicon-link,
+h3 .octicon-link,
+h4 .octicon-link,
+h5 .octicon-link,
+h6 .octicon-link {
   color: #1b1f23;
   vertical-align: middle;
   visibility: hidden;
 }
 
-.tui-editor-contents h1:hover .anchor,
-.tui-editor-contents h2:hover .anchor,
-.tui-editor-contents h3:hover .anchor,
-.tui-editor-contents h4:hover .anchor,
-.tui-editor-contents h5:hover .anchor,
-.tui-editor-contents h6:hover .anchor {
+h1:hover .anchor,
+h2:hover .anchor,
+h3:hover .anchor,
+h4:hover .anchor,
+h5:hover .anchor,
+h6:hover .anchor {
   text-decoration: none;
 }
 
-.tui-editor-contents h1:hover .anchor .octicon-link,
-.tui-editor-contents h2:hover .anchor .octicon-link,
-.tui-editor-contents h3:hover .anchor .octicon-link,
-.tui-editor-contents h4:hover .anchor .octicon-link,
-.tui-editor-contents h5:hover .anchor .octicon-link,
-.tui-editor-contents h6:hover .anchor .octicon-link {
+h1:hover .anchor .octicon-link,
+h2:hover .anchor .octicon-link,
+h3:hover .anchor .octicon-link,
+h4:hover .anchor .octicon-link,
+h5:hover .anchor .octicon-link,
+h6:hover .anchor .octicon-link {
   visibility: visible;
 }
 
-.tui-editor-contents {
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  color: #24292e;
-  line-height: 1.5;
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
-  font-size: 16px;
-  line-height: 1.5;
-  word-wrap: break-word;
-}
 
-.tui-editor-contents .pl-c {
+
+.pl-c {
   color: #6a737d;
 }
 
-.tui-editor-contents .pl-c1,
-.tui-editor-contents .pl-s .pl-v {
+.pl-c1,
+.pl-s .pl-v {
   color: #005cc5;
 }
 
-.tui-editor-contents .pl-e,
-.tui-editor-contents .pl-en {
+.pl-e,
+.pl-en {
   color: #6f42c1;
 }
 
-.tui-editor-contents .pl-s .pl-s1,
-.tui-editor-contents .pl-smi {
+.pl-s .pl-s1,
+.pl-smi {
   color: #24292e;
 }
 
-.tui-editor-contents .pl-ent {
+.pl-ent {
   color: #22863a;
 }
 
-.tui-editor-contents .pl-k {
+.pl-k {
   color: #d73a49;
 }
 
-.tui-editor-contents .pl-pds,
-.tui-editor-contents .pl-s,
-.tui-editor-contents .pl-s .pl-pse .pl-s1,
-.tui-editor-contents .pl-sr,
-.tui-editor-contents .pl-sr .pl-cce,
-.tui-editor-contents .pl-sr .pl-sra,
-.tui-editor-contents .pl-sr .pl-sre {
+.pl-pds,
+.pl-s,
+.pl-s .pl-pse .pl-s1,
+.pl-sr,
+.pl-sr .pl-cce,
+.pl-sr .pl-sra,
+.pl-sr .pl-sre {
   color: #032f62;
 }
 
-.tui-editor-contents .pl-smw,
-.tui-editor-contents .pl-v {
+.pl-smw,
+.pl-v {
   color: #e36209;
 }
 
-.tui-editor-contents .pl-bu {
+.pl-bu {
   color: #b31d28;
 }
 
-.tui-editor-contents .pl-ii {
+.pl-ii {
   background-color: #b31d28;
   color: #fafbfc;
 }
 
-.tui-editor-contents .pl-c2 {
+.pl-c2 {
   background-color: #d73a49;
   color: #fafbfc;
 }
 
-.tui-editor-contents .pl-c2:before {
+.pl-c2:before {
   content: "^M";
 }
 
-.tui-editor-contents .pl-sr .pl-cce {
+.pl-sr .pl-cce {
   color: #22863a;
   font-weight: 700;
 }
 
-.tui-editor-contents .pl-ml {
+.pl-ml {
   color: #735c0f;
 }
 
-.tui-editor-contents .pl-mh,
-.tui-editor-contents .pl-mh .pl-en,
-.tui-editor-contents .pl-ms {
+.pl-mh,
+.pl-mh .pl-en,
+.pl-ms {
   color: #005cc5;
   font-weight: 700;
 }
 
-.tui-editor-contents .pl-mi {
+.pl-mi {
   color: #24292e;
   font-style: italic;
 }
 
-.tui-editor-contents .pl-mb {
+.pl-mb {
   color: #24292e;
   font-weight: 700;
 }
 
-.tui-editor-contents .pl-md {
+.pl-md {
   background-color: #ffeef0;
   color: #b31d28;
 }
 
-.tui-editor-contents .pl-mi1 {
+.pl-mi1 {
   background-color: #f0fff4;
   color: #22863a;
 }
 
-.tui-editor-contents .pl-mc {
+.pl-mc {
   background-color: #ffebda;
   color: #e36209;
 }
 
-.tui-editor-contents .pl-mi2 {
+.pl-mi2 {
   background-color: #005cc5;
   color: #f6f8fa;
 }
 
-.tui-editor-contents .pl-mdr {
+.pl-mdr {
   color: #6f42c1;
   font-weight: 700;
 }
 
-.tui-editor-contents .pl-ba {
+.pl-ba {
   color: #586069;
 }
 
-.tui-editor-contents .pl-sg {
+.pl-sg {
   color: #959da5;
 }
 
-.tui-editor-contents .pl-corl {
+.pl-corl {
   color: #032f62;
   text-decoration: underline;
 }
 
-.tui-editor-contents details {
+details {
   display: block;
 }
 
-.tui-editor-contents summary {
+summary {
   display: list-item;
 }
 
-.tui-editor-contents a {
+a {
   background-color: transparent;
 }
 
-.tui-editor-contents a:active,
-.tui-editor-contents a:hover {
+a:active,
+a:hover {
   outline-width: 0;
 }
 
-.tui-editor-contents strong {
+strong {
   font-weight: inherit;
   font-weight: bolder;
 }
 
-.tui-editor-contents h1 {
+h1 {
   font-size: 2em;
   margin: .67em 0;
 }
 
-.tui-editor-contents img {
+img {
   border-style: none;
 }
 
-.tui-editor-contents code,
-.tui-editor-contents kbd,
-.tui-editor-contents pre {
+code,
+kbd,
+pre {
   font-family: monospace,monospace;
   font-size: 1em;
 }
 
-.tui-editor-contents hr {
+hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
 }
 
-.tui-editor-contents input {
+input {
   font: inherit;
   margin: 0;
 }
 
-.tui-editor-contents input {
+input {
   overflow: visible;
 }
 
-.tui-editor-contents [type=checkbox] {
+[type=checkbox] {
   box-sizing: border-box;
   padding: 0;
 }
 
-.tui-editor-contents * {
+* {
   box-sizing: border-box;
 }
 
-.tui-editor-contents input {
+input {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
 }
 
-.tui-editor-contents a {
+a {
   color: #0366d6;
   text-decoration: none;
 }
 
-.tui-editor-contents a:hover {
+a:hover {
   text-decoration: underline;
 }
 
-.tui-editor-contents strong {
+strong {
   font-weight: 600;
 }
 
-.tui-editor-contents hr {
+hr {
   background: transparent;
   border: 0;
   border-bottom: 1px solid #dfe2e5;
@@ -274,258 +280,239 @@
   overflow: hidden;
 }
 
-.tui-editor-contents hr:before {
+hr:before {
   content: "";
   display: table;
 }
 
-.tui-editor-contents hr:after {
+hr:after {
   clear: both;
   content: "";
   display: table;
 }
 
-.tui-editor-contents table {
+table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-.tui-editor-contents td,
-.tui-editor-contents th {
+td,
+th {
   padding: 0;
 }
 
-.tui-editor-contents details summary {
+details summary {
   cursor: pointer;
 }
 
-.tui-editor-contents h1,
-.tui-editor-contents h2,
-.tui-editor-contents h3,
-.tui-editor-contents h4,
-.tui-editor-contents h5,
-.tui-editor-contents h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: 0;
   margin-top: 0;
 }
 
-.tui-editor-contents h1 {
+h1 {
   font-size: 32px;
 }
 
-.tui-editor-contents h1,
-.tui-editor-contents h2 {
+h1,
+h2 {
   font-weight: 600;
 }
 
-.tui-editor-contents h2 {
+h2 {
   font-size: 24px;
 }
 
-.tui-editor-contents h3 {
+h3 {
   font-size: 20px;
 }
 
-.tui-editor-contents h3,
-.tui-editor-contents h4 {
+h3,
+h4 {
   font-weight: 600;
 }
 
-.tui-editor-contents h4 {
+h4 {
   font-size: 16px;
 }
 
-.tui-editor-contents h5 {
+h5 {
   font-size: 14px;
 }
 
-.tui-editor-contents h5,
-.tui-editor-contents h6 {
+h5,
+h6 {
   font-weight: 600;
 }
 
-.tui-editor-contents h6 {
+h6 {
   font-size: 12px;
 }
 
-.tui-editor-contents p {
+p {
   margin-bottom: 10px;
   margin-top: 0;
 }
 
-.tui-editor-contents blockquote {
+blockquote {
   margin: 0;
 }
 
-.tui-editor-contents ol,
-.tui-editor-contents ul {
+ol,
+ul {
   margin-bottom: 0;
   margin-top: 0;
   padding-left: 0;
 }
 
-.tui-editor-contents ol ol,
-.tui-editor-contents ul ol {
+ol ol,
+ul ol {
   list-style-type: lower-roman;
 }
 
-.tui-editor-contents ol ol ol,
-.tui-editor-contents ol ul ol,
-.tui-editor-contents ul ol ol,
-.tui-editor-contents ul ul ol {
+ol ol ol,
+ol ul ol,
+ul ol ol,
+ul ul ol {
   list-style-type: lower-alpha;
 }
 
-.tui-editor-contents dd {
+dd {
   margin-left: 0;
 }
 
-.tui-editor-contents code,
-.tui-editor-contents pre {
+code,
+pre {
   font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
   font-size: 12px;
 }
 
-.tui-editor-contents pre {
+pre {
   margin-bottom: 0;
   margin-top: 0;
 }
 
-.tui-editor-contents input::-webkit-inner-spin-button,
-.tui-editor-contents input::-webkit-outer-spin-button {
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
   -webkit-appearance: none;
   appearance: none;
   margin: 0;
 }
 
-.tui-editor-contents .border {
+.border {
   border: 1px solid #e1e4e8!important;
 }
 
-.tui-editor-contents .border-0 {
+.border-0 {
   border: 0!important;
 }
 
-.tui-editor-contents .border-bottom {
+.border-bottom {
   border-bottom: 1px solid #e1e4e8!important;
 }
 
-.tui-editor-contents .rounded-1 {
+.rounded-1 {
   border-radius: 3px!important;
 }
 
-.tui-editor-contents .bg-white {
+.bg-white {
   background-color: #fff!important;
 }
 
-.tui-editor-contents .bg-gray-light {
+.bg-gray-light {
   background-color: #fafbfc!important;
 }
 
-.tui-editor-contents .text-gray-light {
+.text-gray-light {
   color: #6a737d!important;
 }
 
-.tui-editor-contents .mb-0 {
+.mb-0 {
   margin-bottom: 0!important;
 }
 
-.tui-editor-contents .my-2 {
+.my-2 {
   margin-bottom: 8px!important;
   margin-top: 8px!important;
 }
 
-.tui-editor-contents .pl-0 {
+.pl-0 {
   padding-left: 0!important;
 }
 
-.tui-editor-contents .py-0 {
+.py-0 {
   padding-bottom: 0!important;
   padding-top: 0!important;
 }
 
-.tui-editor-contents .pl-1 {
+.pl-1 {
   padding-left: 4px!important;
 }
 
-.tui-editor-contents .pl-2 {
+.pl-2 {
   padding-left: 8px!important;
 }
 
-.tui-editor-contents .py-2 {
+.py-2 {
   padding-bottom: 8px!important;
   padding-top: 8px!important;
 }
 
-.tui-editor-contents .pl-3,
-.tui-editor-contents .px-3 {
+.pl-3,
+.px-3 {
   padding-left: 16px!important;
 }
 
-.tui-editor-contents .px-3 {
+.px-3 {
   padding-right: 16px!important;
 }
 
-.tui-editor-contents .pl-4 {
+.pl-4 {
   padding-left: 24px!important;
 }
 
-.tui-editor-contents .pl-5 {
+.pl-5 {
   padding-left: 32px!important;
 }
 
-.tui-editor-contents .pl-6 {
+.pl-6 {
   padding-left: 40px!important;
 }
 
-.tui-editor-contents .f6 {
+.f6 {
   font-size: 12px!important;
 }
 
-.tui-editor-contents .lh-condensed {
+.lh-condensed {
   line-height: 1.25!important;
 }
 
-.tui-editor-contents .text-bold {
+.text-bold {
   font-weight: 600!important;
 }
 
-.markdown-body:before {
-  content: "";
-  display: table;
-}
-
-.markdown-body:after {
-  clear: both;
-  content: "";
-  display: table;
-}
-
-.markdown-body>:first-child {
-  margin-top: 0!important;
-}
-
-.markdown-body>:last-child {
-  margin-bottom: 0!important;
-}
-
-.tui-editor-contents a:not([href]) {
+a:not([href]) {
   color: inherit;
   text-decoration: none;
 }
 
-.tui-editor-contents blockquote,
-.tui-editor-contents dl,
-.tui-editor-contents ol,
-.tui-editor-contents p,
-.tui-editor-contents pre,
-.tui-editor-contents table,
-.tui-editor-contents ul {
+blockquote,
+dl,
+ol,
+p,
+pre,
+table,
+ul {
   margin-bottom: 16px;
   margin-top: 0;
 }
 
-.tui-editor-contents hr {
+hr {
   background-color: #e1e4e8;
   border: 0;
   height: .25em;
@@ -533,21 +520,21 @@
   padding: 0;
 }
 
-.tui-editor-contents blockquote {
+blockquote {
   border-left: .25em solid #dfe2e5;
   color: #6a737d;
   padding: 0 1em;
 }
 
-.tui-editor-contents blockquote>:first-child {
+blockquote>:first-child {
   margin-top: 0;
 }
 
-.tui-editor-contents blockquote>:last-child {
+blockquote>:last-child {
   margin-bottom: 0;
 }
 
-.tui-editor-contents kbd {
+kbd {
   background-color: #fafbfc;
   border: 1px solid #c6cbd1;
   border-bottom-color: #959da5;
@@ -561,79 +548,79 @@
   vertical-align: middle;
 }
 
-.tui-editor-contents h1,
-.tui-editor-contents h2,
-.tui-editor-contents h3,
-.tui-editor-contents h4,
-.tui-editor-contents h5,
-.tui-editor-contents h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 600;
   line-height: 1.25;
   margin-bottom: 16px;
   margin-top: 24px;
 }
 
-.tui-editor-contents h1 {
+h1 {
   font-size: 2em;
 }
 
-.tui-editor-contents h1,
-.tui-editor-contents h2 {
+h1,
+h2 {
   border-bottom: 1px solid #eaecef;
   padding-bottom: .3em;
 }
 
-.tui-editor-contents h2 {
+h2 {
   font-size: 1.5em;
 }
 
-.tui-editor-contents h3 {
+h3 {
   font-size: 1.25em;
 }
 
-.tui-editor-contents h4 {
+h4 {
   font-size: 1em;
 }
 
-.tui-editor-contents h5 {
+h5 {
   font-size: .875em;
 }
 
-.tui-editor-contents h6 {
+h6 {
   color: #6a737d;
   font-size: .85em;
 }
 
-.tui-editor-contents ol,
-.tui-editor-contents ul {
+ol,
+ul {
   padding-left: 2em;
 }
 
-.tui-editor-contents ol ol,
-.tui-editor-contents ol ul,
-.tui-editor-contents ul ol,
-.tui-editor-contents ul ul {
+ol ol,
+ol ul,
+ul ol,
+ul ul {
   margin-bottom: 0;
   margin-top: 0;
 }
 
-.tui-editor-contents li {
+li {
   word-wrap: break-all;
 }
 
-.tui-editor-contents li>p {
+li>p {
   margin-top: 16px;
 }
 
-.tui-editor-contents li+li {
+li+li {
   margin-top: .25em;
 }
 
-.tui-editor-contents dl {
+dl {
   padding: 0;
 }
 
-.tui-editor-contents dl dt {
+dl dt {
   font-size: 1em;
   font-style: italic;
   font-weight: 600;
@@ -641,51 +628,51 @@
   padding: 0;
 }
 
-.tui-editor-contents dl dd {
+dl dd {
   margin-bottom: 16px;
   padding: 0 16px;
 }
 
-.tui-editor-contents table {
+table {
   display: block;
   overflow: auto;
   width: 100%;
 }
 
-.tui-editor-contents table th {
+table th {
   font-weight: 600;
 }
 
-.tui-editor-contents table td,
-.tui-editor-contents table th {
+table td,
+table th {
   border: 1px solid #dfe2e5;
   padding: 6px 13px;
 }
 
-.tui-editor-contents table tr {
+table tr {
   background-color: #fff;
   border-top: 1px solid #c6cbd1;
 }
 
-.tui-editor-contents table tr:nth-child(2n) {
+table tr:nth-child(2n) {
   background-color: #f6f8fa;
 }
 
-.tui-editor-contents img {
+img {
   background-color: #fff;
   box-sizing: content-box;
   max-width: 100%;
 }
 
-.tui-editor-contents img[align=right] {
+img[align=right] {
   padding-left: 20px;
 }
 
-.tui-editor-contents img[align=left] {
+img[align=left] {
   padding-right: 20px;
 }
 
-.tui-editor-contents code {
+code {
   background-color: rgba(27,31,35,.05);
   border-radius: 3px;
   font-size: 85%;
@@ -693,11 +680,11 @@
   padding: .2em .4em;
 }
 
-.tui-editor-contents pre {
+pre {
   word-wrap: normal;
 }
 
-.tui-editor-contents pre>code {
+pre>code {
   background: transparent;
   border: 0;
   font-size: 100%;
@@ -707,17 +694,17 @@
   word-break: normal;
 }
 
-.tui-editor-contents .highlight {
+.highlight {
   margin-bottom: 16px;
 }
 
-.tui-editor-contents .highlight pre {
+.highlight pre {
   margin-bottom: 0;
   word-break: normal;
 }
 
-.tui-editor-contents .highlight pre,
-.tui-editor-contents pre {
+.highlight pre,
+pre {
   background-color: #f6f8fa;
   border-radius: 3px;
   font-size: 85%;
@@ -726,7 +713,7 @@
   padding: 16px;
 }
 
-.tui-editor-contents pre code {
+pre code {
   background-color: transparent;
   border: 0;
   display: inline;
@@ -738,26 +725,26 @@
   word-wrap: normal;
 }
 
-.tui-editor-contents .commit-tease-sha {
+.commit-tease-sha {
   color: #444d56;
   display: inline-block;
   font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
   font-size: 90%;
 }
 
-.tui-editor-contents .blob-wrapper {
+.blob-wrapper {
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   overflow-x: auto;
   overflow-y: hidden;
 }
 
-.tui-editor-contents .blob-wrapper-embedded {
+.blob-wrapper-embedded {
   max-height: 240px;
   overflow-y: auto;
 }
 
-.tui-editor-contents .blob-num {
+.blob-num {
   -moz-user-select: none;
   -ms-user-select: none;
   -webkit-user-select: none;
@@ -776,15 +763,15 @@
   width: 1%;
 }
 
-.tui-editor-contents .blob-num:hover {
+.blob-num:hover {
   color: rgba(27,31,35,.6);
 }
 
-.tui-editor-contents .blob-num:before {
+.blob-num:before {
   content: attr(data-line-number);
 }
 
-.tui-editor-contents .blob-code {
+.blob-code {
   line-height: 20px;
   padding-left: 10px;
   padding-right: 10px;
@@ -792,7 +779,7 @@
   vertical-align: top;
 }
 
-.tui-editor-contents .blob-code-inner {
+.blob-code-inner {
   color: #24292e;
   font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
   font-size: 12px;
@@ -801,13 +788,13 @@
   word-wrap: normal;
 }
 
-.tui-editor-contents .pl-token.active,
-.tui-editor-contents .pl-token:hover {
+.pl-token.active,
+.pl-token:hover {
   background: #ffea7f;
   cursor: pointer;
 }
 
-.tui-editor-contents kbd {
+kbd {
   background-color: #fafbfc;
   border: 1px solid #d1d5da;
   border-bottom-color: #c6cbd1;
@@ -821,137 +808,138 @@
   vertical-align: middle;
 }
 
-.tui-editor-contents :checked+.radio-label {
+:checked+.radio-label {
   border-color: #0366d6;
   position: relative;
   z-index: 1;
 }
 
-.tui-editor-contents .tab-size[data-tab-size="1"] {
+.tab-size[data-tab-size="1"] {
   -moz-tab-size: 1;
   tab-size: 1;
 }
 
-.tui-editor-contents .tab-size[data-tab-size="2"] {
+.tab-size[data-tab-size="2"] {
   -moz-tab-size: 2;
   tab-size: 2;
 }
 
-.tui-editor-contents .tab-size[data-tab-size="3"] {
+.tab-size[data-tab-size="3"] {
   -moz-tab-size: 3;
   tab-size: 3;
 }
 
-.tui-editor-contents .tab-size[data-tab-size="4"] {
+.tab-size[data-tab-size="4"] {
   -moz-tab-size: 4;
   tab-size: 4;
 }
 
-.tui-editor-contents .tab-size[data-tab-size="5"] {
+.tab-size[data-tab-size="5"] {
   -moz-tab-size: 5;
   tab-size: 5;
 }
 
-.tui-editor-contents .tab-size[data-tab-size="6"] {
+.tab-size[data-tab-size="6"] {
   -moz-tab-size: 6;
   tab-size: 6;
 }
 
-.tui-editor-contents .tab-size[data-tab-size="7"] {
+.tab-size[data-tab-size="7"] {
   -moz-tab-size: 7;
   tab-size: 7;
 }
 
-.tui-editor-contents .tab-size[data-tab-size="8"] {
+.tab-size[data-tab-size="8"] {
   -moz-tab-size: 8;
   tab-size: 8;
 }
 
-.tui-editor-contents .tab-size[data-tab-size="9"] {
+.tab-size[data-tab-size="9"] {
   -moz-tab-size: 9;
   tab-size: 9;
 }
 
-.tui-editor-contents .tab-size[data-tab-size="10"] {
+.tab-size[data-tab-size="10"] {
   -moz-tab-size: 10;
   tab-size: 10;
 }
 
-.tui-editor-contents .tab-size[data-tab-size="11"] {
+.tab-size[data-tab-size="11"] {
   -moz-tab-size: 11;
   tab-size: 11;
 }
 
-.tui-editor-contents .tab-size[data-tab-size="12"] {
+.tab-size[data-tab-size="12"] {
   -moz-tab-size: 12;
   tab-size: 12;
 }
 
-.tui-editor-contents .task-list-item {
+.task-list-item {
   list-style-type: none;
 }
 
-.tui-editor-contents .task-list-item+.task-list-item {
+.task-list-item+.task-list-item {
   margin-top: 3px;
 }
 
-.tui-editor-contents .task-list-item input {
+.task-list-item input {
   margin: 0 .2em .25em -1.6em;
   vertical-align: middle;
 }
 
-.tui-editor-contents hr {
+hr {
   border-bottom-color: #eee;
 }
 
-.tui-editor-contents .pl-0 {
+.pl-0 {
   padding-left: 0!important;
 }
 
-.tui-editor-contents .pl-1 {
+.pl-1 {
   padding-left: 4px!important;
 }
 
-.tui-editor-contents .pl-2 {
+.pl-2 {
   padding-left: 8px!important;
 }
 
-.tui-editor-contents .pl-3 {
+.pl-3 {
   padding-left: 16px!important;
 }
 
-.tui-editor-contents .pl-4 {
+.pl-4 {
   padding-left: 24px!important;
 }
 
-.tui-editor-contents .pl-5 {
+.pl-5 {
   padding-left: 32px!important;
 }
 
-.tui-editor-contents .pl-6 {
+.pl-6 {
   padding-left: 40px!important;
 }
 
-.tui-editor-contents .pl-7 {
+.pl-7 {
   padding-left: 48px!important;
 }
 
-.tui-editor-contents .pl-8 {
+.pl-8 {
   padding-left: 64px!important;
 }
 
-.tui-editor-contents .pl-9 {
+.pl-9 {
   padding-left: 80px!important;
 }
 
-.tui-editor-contents .pl-10 {
+.pl-10 {
   padding-left: 96px!important;
 }
 
-.tui-editor-contents .pl-11 {
+.pl-11 {
   padding-left: 112px!important;
 }
 
-.tui-editor-contents .pl-12 {
+.pl-12 {
   padding-left: 128px!important;
 }
+`;
