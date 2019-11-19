@@ -141,7 +141,7 @@ function App() {
       <Editor
         ref={editorEl}
         initialValue={initMdContent}
-        previewStyle="vertical"
+        previewStyle={window.innerWidth > 700 ? 'vertical': 'tab'}
         height="calc(100vh - 64px)"
         initialEditType="markdown"
         useCommandShortcut={true}

@@ -14,10 +14,6 @@ Write resume with markdown
 
 To be the best markdown to resume tool
 
-## Author
-
-- [timqian](https://github.com/timqian)
-
 ## Thanks
 
 - [toast-ui.react-editor](https://github.com/nhn/toast-ui.react-editor)
@@ -39,7 +35,10 @@ To be the best markdown to resume tool
 - [Markdown-resuem-js](https://github.com/c0bra/markdown-resume-js): command line tool to turn markdown document into a resume in HTML and PDF.
 - [Markdown-resume](https://github.com/there4/markdown-resume): another command line tool.
 
-
 ## TODO
 
 - i18n: https://codesandbox.io/s/1zxox032q
+
+## Author
+
+- [timqian](https://timqian.com)
