@@ -3,7 +3,11 @@
 </p>
 
 <p align="center">
-  [![](https://badgen.net/badge/icon/Website?icon=chrome&label)](https://resumd.t9t.io) [![](https://badgen.net/badge/icon/Twitter?icon=twitter&label)](https://twitter.com/tim_qian) [![](https://badgen.net/badge/icon/Telegram?icon=telegram&label)](https://t.me/resumd) [![](https://badgen.net/badge/icon/Patrons/orange?icon=patreon&label)](https://www.patreon.com/timqian) [![](https://badgen.net/badge/icon/Blog?icon=chrome&label)](https://blog.t9t.io/)
+  <a href="https://resumd.t9t.io"><img src="https://badgen.net/badge/icon/Website?icon=chrome&amp;label" /></a> 
+  <a href="https://twitter.com/tim_qian"><img src="https://badgen.net/badge/icon/Twitter?icon=twitter&amp;label" /></a> 
+  <a href="https://t.me/resumd"><img src="https://badgen.net/badge/icon/Telegram?icon=telegram&amp;label" /></a> 
+  <a href="https://www.patreon.com/timqian"><img src="https://badgen.net/badge/icon/Patrons/orange?icon=patreon&amp;label" /></a> 
+  <a href="https://blog.t9t.io/"><img src="https://badgen.net/badge/icon/Blog?icon=chrome&amp;label" /></a>
 </p>
 
 Write resume with markdown
