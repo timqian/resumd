@@ -53,13 +53,12 @@ header {
 
 .ad-div {
   font-size: 15px;
-  color: #09d3ac;
   position: fixed;
   bottom: 0;
   background-color: #282c34;
   box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
   z-index: 10;
-  padding: 2px 7px;
+  padding: 7px 10px;
 }
 
 .ad-div a {

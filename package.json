@@ -4,20 +4,19 @@
   "private": true,
   "dependencies": {
     "@toast-ui/react-editor": "^1.0.1",
-    "html2canvas": "^1.0.0-rc.1",
     "js-file-download": "^0.4.8",
-    "jspdf": "^1.5.3",
+    "notie": "^4.3.1",
     "print-js": "^1.0.61",
+    "query-string": "^6.9.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-github-btn": "^1.1.1",
-    "react-i18next": "^11.1.0",
-    "react-scripts": "3.2.0",
-    "showdown": "^1.9.1"
+    "react-scripts": "3.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "publish": "npm run build && up deploy production",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

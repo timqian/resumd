@@ -1,0 +1,14 @@
+{
+  "name": "resumd",
+  "profile": "timConsole",
+  "regions": ["us-east-1"],
+  "type": "static",
+  "static": {
+    "dir": "build"
+  },
+  "stages": {
+    "production": {
+      "domain": "resumd.t9t.io"
+    }
+  }
+}
