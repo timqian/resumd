@@ -22,6 +22,10 @@
 
 To be the best markdown to resume tool
 
+## Sponsors
+
+[Your logo here](https://www.patreon.com/timqian)
+
 ## Thanks
 
 - [toast-ui.react-editor](https://github.com/nhn/toast-ui.react-editor)
