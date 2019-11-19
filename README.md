@@ -1,4 +1,8 @@
-![](https://i.v2ex.co/e0W134z7.png)
+<p align="center">
+  <img width="400" src="https://i.v2ex.co/e0W134z7.png">
+</p>
+
+  [![](https://badgen.net/badge/icon/Website?icon=chrome&label)](https://resumd.t9t.io) [![](https://badgen.net/badge/icon/Twitter?icon=twitter&label)](https://twitter.com/timqian) [![](https://badgen.net/badge/icon/Telegram?icon=telegram&label)](https://t.me/resumd) [![](https://badgen.net/badge/icon/Patrons/orange?icon=patreon&label)](https://www.patreon.com/timqian) [![](https://badgen.net/badge/icon/Blog?icon=chrome&label)](https://blog.t9t.io/)
 
 Write resume with markdown
 
