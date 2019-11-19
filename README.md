@@ -13,9 +13,9 @@
 
 ## Features
 
-- Convert to html/pdf ([example PDF]())
+- Convert to html/pdf ([example PDF](./samplePDFs/TUI.pdf))
 - [Web UI](https://resumd.t9t.io)
-- Customizable themes([](), [](), []())
+- Customizable themes([GitHub theme](./samplePDFs/GitHub.pdf), [timqian.com theme](./samplePDFs/timqian.pdf), [TUI theme](./samplePDFs/TUI.pdf))
 - Easy to share and edit
 - A pure frontend project, your data on your hand
 
