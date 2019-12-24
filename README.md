@@ -40,7 +40,7 @@ To be the best markdown to resume tool
 - Logo Font: Ceviche One
 - [Change style sheets with JS](https://www.w3.org/wiki/Dynamic_style_-_manipulating_CSS_with_JavaScript) 
 
-## Privious art
+## Previous art
 
 - Cv-maker: markdown based resume. [GitHub](https://github.com/awalGarg/cv-maker/); [Hacker News disscussions](https://news.ycombinator.com/item?id=11026096);
 - Online markdown resume editor: [DeerResume](https://github.com/geekcompany/DeerResume) [冷熊简历](http://cv.ftqq.com/#)
